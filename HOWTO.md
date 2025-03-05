@@ -62,3 +62,38 @@ To proceed with your assignment, you need to have an understanding of the follow
 
 ## The Traces
  You can find the traces here: https://drive.google.com/drive/folders/1tG-oFIsxFza3GYPzUsMvj_vmLYvQeEcL?usp=sharing
+
+
+
+## How to install GCC 7
+
+You'll require GCC 7 installed in your system to run ChampSim. Here are the steps to download GCC 7 in ubuntu: 
+
+ 
+```
+sudo apt update 
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test 
+
+vim /etc/apt/sources.list 
+sudo nano /etc/apt/sources.list 
+```
+
+
+Update the last line with deb [arch=amd64] http://archive.ubuntu.com/ubuntu  focal main universe 
+
+``` 
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test 
+sudo apt-get install gcc-7 
+sudo apt-get install g++-7 
+
+sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-7 0 
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7 0 
+```
+
+In case the GCC and G++ is already present in `/usr/bin` (run ./gcc-7 –v in `/usr/bin`) installed and alternative is set then run  
+
+
+```
+sudo update-alternatives --config g++ 
+sudo update-alternatives --config gcc
+```
