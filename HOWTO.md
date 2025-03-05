@@ -58,3 +58,7 @@ To proceed with your assignment, you need to have an understanding of the follow
 1. `cache.cc`: present in /src folder
 2. `main.cc`: present in /src folder
 3. `lru.llc_repl`: present in /replacement folder
+
+
+## The Traces
+ You can find the traces here: https://drive.google.com/drive/folders/1tG-oFIsxFza3GYPzUsMvj_vmLYvQeEcL?usp=sharing

@@ -1,0 +1,2 @@
+600.perlbench_s-570B.champsimtrace.xz
+605.mcf_s-1554B.champsimtrace.xz
